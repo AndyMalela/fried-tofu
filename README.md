@@ -27,5 +27,5 @@ This repository is for personal use and does not contain any licensed material. 
 
 Feel free to reach out if you have any questions or suggestions regarding the structure or content of this repository.
 
-
-[]
+Yours truly,
+Ptolemy
