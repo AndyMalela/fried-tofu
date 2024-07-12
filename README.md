@@ -19,9 +19,9 @@ To ensure all data is safely backed up:
 
 Since this is a personal backup repository, contributions are not expected. 
 
-## License
+## Security
 
-This repository is for personal use and does not contain any licensed material. Any shared resources should respect copyright laws.
+For the possible case of this repository to be made public, do not put any private information here.
 
 ---
 
