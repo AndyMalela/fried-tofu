@@ -4,9 +4,9 @@ Fuck notion, fuck obsidian, fuck evernote.
 
 This personal repository acts as centralized location for backing up and transferring files or notes between all my devices. I use this because it's free.
 
-## Contents
+## Structure
 
-This repository is structured to include various types of files and notes.
+This repository has a kitchen-sink-structure.
 
 ## Backup Strategy
 
@@ -25,7 +25,7 @@ This repository is for personal use and does not contain any licensed material. 
 
 ---
 
-Feel free to reach out if you have any questions or suggestions regarding the structure or content of this repository.
+Feel free to reach out if you have any questions or suggestions regarding the repository or its content at @andifallihmalela@gmail.com
 
 Yours truly,
 Ptolemy
