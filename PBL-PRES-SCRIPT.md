@@ -30,7 +30,7 @@ We split the implementation to two groups 3 guys on frontend work and 3 guys on 
 We used Vue for front end framework, spring boot and java for backend, and postgresql for database. We also used git and github for source code management and collaboration.
 
 ### Slide Front End
-We used Vue for the front end and fllowed a component based architecture. So our user interface is into smaller, reusable or components. Think of it like lego blocks. Instead of creating each view functionalities from scratch, we assemble views from these pre-built components. We use this approach because its useful since we have many similar views and its a common pattern for using Vue framework.
+We used Vue for the front end and fllowed a component based architecture. So our user interface is into smaller, reusable or components. Think of it like lego blocks where each blocks are a component. Instead of creating each view functionalities from scratch, we assemble views from these pre-built components. We use this approach because its useful since we have many similar views and its a common pattern for using Vue framework.
 
 The component implementation follows Model-View-View Model architecture. 'Model' represents data and business logic of the application. 'View' is the visual component rendered to the browser as something the user can see or interact or see. 'View model' is intermediary between the View and the Model. It handles the presentation logic and state management. 
 
