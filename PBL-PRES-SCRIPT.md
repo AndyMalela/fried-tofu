@@ -15,7 +15,9 @@ Citizens use the system for their career. They input their occupational data and
 
 Then, city managers use the system as a tool for human resource management. It allows city managers to view detailed reports on their workforce, prioritizing citizen data. 
 
-This bottom-up, data-driven approach, city managers aims to help respond to evolving career demands and city needs. 
+This bottom-up, data-driven approach, city managers
+
+ help respond to evolving career demands and city needs. 
 
 ### Slide Architecture
 The overall architectural structure of our system is split into three parts, user interface/presentation tier, backend services/application tier, and database/data tier. 
@@ -28,13 +30,13 @@ We split the implementation to two groups 3 guys on frontend work and 3 guys on 
 We used Vue for front end framework, spring boot and java for backend, and postgresql for database. We also used git and github for source code management and collaboration.
 
 ### Slide Front End
-We used Vue for the front end and used a component based architecture. So our user interface is into smaller, reusable or components. Think of it like lego blocks. Instead of creating each view functionalities from scratch, we assemble views from these pre-built components. We use this approach because its useful since we have many similar views and its a common pattern for using Vue framework.
+We used Vue for the front end and fllowed a component based architecture. So our user interface is into smaller, reusable or components. Think of it like lego blocks. Instead of creating each view functionalities from scratch, we assemble views from these pre-built components. We use this approach because its useful since we have many similar views and its a common pattern for using Vue framework.
 
 The component implementation follows Model-View-View Model architecture. 'Model' represents data and business logic of the application. 'View' is the visual component rendered to the browser as something the user can see or interact or see. 'View model' is intermediary between the View and the Model. It handles the presentation logic and state management. 
 
 ### Slide Back End
-Our backend uses spring boot. The structure is split to multiple vertical slices based on each core functionalities domain of the system. So here there is one vertical slice for x domain, and another for y. 
+Our backend uses spring boot. The structure of backend is split to multiple vertical slices based on each core functionalities domain of the system. So here there is one vertical slice for x domain, and another for y and so on with other domains. 
 
-These slices follow a layered architecture. In a slice theres a presentation layer for mapping HTTP requests to Java method invocations, business layer for the business logic, and data access layer for interacting with data.
+These slices follow a layered architecture. In a slice there consist multiple layers serving their own purpose for each domain functionalities. So a presentation layer for mapping HTTP requests to Java method invocations, business layer for the business logics, and data access layer for interacting with data tier.
 
 ### And next is the explanation how we implemented some of the each functionalities of the system.
