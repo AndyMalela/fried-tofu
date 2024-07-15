@@ -11,7 +11,7 @@ Most of the details of our system were already covered in the midterm presentati
 
 There are two main users.
 
-Citizens use the system for their career. They input their occupational data and access resources like job news, certifications, learning materials, job opportunities, job trends and predictions, and learning materials.
+Citizens use the system for their career. They input their occupational data and access resources like job news, certifications, job postings, job trends and predictions, and learning materials.
 
 Then, city managers use the system as a tool for human resource management. It allows city managers to view detailed reports on their workforce, prioritizing citizen data. 
 
