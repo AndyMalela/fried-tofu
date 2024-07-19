@@ -1,6 +1,3 @@
-import java.util.Date;
-import java.io.File;
-
 public class MaintenanceRecord {
     private String id;
     private String carId;
@@ -9,8 +6,6 @@ public class MaintenanceRecord {
     private String performedBy;
 
     public void addAttachment(File attachment) {
-        // Implementation
+        // method implementation
     }
-
-    // Getters and setters
 }

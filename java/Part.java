@@ -1,23 +1,13 @@
 public class Part {
-    private String partName;
-    private String partNumber;
+
+    private String id;
+    private String name;
+    private String category;
     private int quantity;
-    private String condition;
-    private Supplier supplier;
-    private Order order;
+    private List<String> compatibleModels;
+    private boolean isOriginal;
 
-    public String getPartDetails() {
-        return String.format("Part Name: %s, Part Number: %s, Quantity: %d, Condition: %s",
-                partName, partNumber, quantity, condition);
+    public void updateQuantity(int newQuantity) {
+        // method implementation
     }
-
-    public void updateQuantity(int quantity) {
-        this.quantity = quantity;
-    }
-
-    public void linkToOrder(Order order) {
-        this.order = order;
-    }
-
-    // Getters and setters
 }

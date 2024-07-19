@@ -1,20 +1,18 @@
-import java.util.Date;
-
 public class Car {
+
     private String id;
     private String make;
+    private String owner;
     private String model;
     private int year;
-    private Condition currentCondition;
-    private RestorationStatus restorationStatus;
+    private Enum currentCondition;
+    private Enum restorationStatus;
 
-    public void updateCondition(Condition newCondition) {
-        // Implementation
+    public void updateCondition(Enum newCondition) {
+        // method implementation
     }
 
-    public void updateRestorationStatus(RestorationStatus newStatus) {
-        // Implementation
+    public void updateRestorationStatus(Enum newStatus) {
+        // method implementation
     }
-
-    // Getters and setters
 }

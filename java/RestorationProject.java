@@ -1,22 +1,39 @@
-import java.util.Date;
+import java.util.ArrayList;
 import java.util.List;
 
 public class RestorationProject {
+
     private String id;
     private String carId;
     private Date startDate;
     private Date estimatedCompletionDate;
     private Date actualCompletionDate;
-    private ProjectStatus status;
+    private Enum status;
+    private double progress;
     private List<RestorationComponent> components;
 
-    public void updateStatus(ProjectStatus newStatus) {
-        // Implementation
+    public RestorationProject() {
+        this.components = new ArrayList<>();
+    }
+
+    public void updateStatus(Enum newStatus) {
+        // method implementation
     }
 
     public void addComponentRestoration(RestorationComponent component) {
-        // Implementation
+        this.components.add(component);
+        updateProgress();
     }
 
-    // Getters and setters
+    public void updateProgress() {
+        double totalProgress = 0;
+        for (RestorationComponent component : components) {
+            totalProgress += component.getProgress();
+        }
+        this.progress = totalProgress / components.size();
+    }
+
+    public double getProgress() {
+        return progress;
+    }
 }

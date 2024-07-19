@@ -1,21 +1,39 @@
-import java.util.Date;
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class RestorationComponent {
+
     private String id;
-    private ComponentType type;
-    private ComponentStatus status;
+    private Enum type;
+    private Enum status;
     private Date startDate;
     private Date completionDate;
+    private double progress;
     private List<RestorationTask> tasks;
 
-    public void updateStatus(ComponentStatus newStatus) {
-        // Implementation
+    public RestorationComponent() {
+        this.tasks = new ArrayList<>();
+    }
+
+    public void updateStatus(Enum newStatus) {
+        // method implementation
+        updateProgress();
     }
 
     public void addTask(RestorationTask task) {
-        // Implementation
+        this.tasks.add(task);
+        updateProgress();
     }
 
-    // Getters and setters
+    public void updateProgress() {
+        double totalProgress = 0;
+        for (RestorationTask task : tasks) {
+            totalProgress += task.getProgress();
+        }
+        this.progress = totalProgress / tasks.size();
+    }
+
+    public double getProgress() {
+        return progress;
+    }
 }
